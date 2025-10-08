@@ -251,7 +251,6 @@ justify-content: center;
   line-height: 24px;
   letter-spacing: normal;
   text-align: start;
-  max-width: 370px;            /*--*/
   color: #191c1f;
 }
 .BtnTwo {
@@ -432,8 +431,15 @@ justify-content: center;
   margin: 0px;
   overflow: hidden;
 }
+
 .appleStoreimg {
   /* position: absolute; */
+  height: 100%;
+  width: 100%;
+  inset: 0px;
+  object-fit: contain;
+}
+.appleStoreimg2{
   height: 100%;
   width: 100%;
   inset: 0px;
@@ -449,6 +455,7 @@ justify-content: center;
   line-height: 22px;
   letter-spacing: normal;
   text-align: center;
+  color: #191c1f;
 }
 .videoImg {
   box-sizing: border-box;
@@ -1060,6 +1067,11 @@ justify-content: center;
     letter-spacing: 0.18px;
     text-align: start;
 }
+@media screen and (max-width:425px){
+  .belowPara{
+    max-width: 370px;
+  }
+}
 @media screen and (min-width:768px){
 .textSurround{
     padding: 48px 20px 24px 20px;
@@ -1071,4 +1083,72 @@ justify-content: center;
    .textFlex1{
     gap: 24px;
    }
+   .topImg{
+    width: calc(49.6063vh);
+    justify-self: center;
+   }
+   .ladyImg{
+    width: calc(201.6vh);
+    height:  calc(112vh);
+   }
+   .headTwo{
+    font-size: 48px;
+    text-align: center;
+   }
+   .flexCont{
+    align-items: center;
+   }
+   .belowPara{
+    text-align: center;
+   }
+   .threeDot{
+    display: none;
+   }
+  .textJoin{
+    text-align: center;
+  }
+  .eachFlex{
+    max-width: 231px;
+    align-items: center;
+  }
+  .appleStoreimg2{
+    height: 126.9px;
+    width: 316px;
+  }
+  .textFlex,.textFlex2{
+    align-items: center;
+  }
+  .virtualHead{
+    font-size: 48px;
+  }
+  .btnCont{
+   margin-left: 180px;
+   margin-bottom: -48px;
+  }
+  .btnTwo{
+   min-height: 0px;
+  }
+  .marriageImg{
+    height: 544px;
+    object-fit: cover;
+  }
+  .transStyle{
+    object-fit: contain;
+    /* height: 240px; */
+    width: 436px;
+  }
+  .relImg{
+    display: flex;
+    justify-content: center;
+  }
+  .btnCont2{
+    /* margin-top: -70px; */
+    margin-left: 160px;
+  }
+  .firstPart2{
+    min-height: 640px;
+  }
+  .desVirtual,.desVirtualSmall{
+    text-align: center;
+  }
 }
