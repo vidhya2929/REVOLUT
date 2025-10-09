@@ -1489,11 +1489,61 @@ justify-content: center;
 .individualProp{
   text-wrap: nowrap;
 }
+/* .ladyImg{
+  zoom: 1.09;
+} */
 .siteLogo{
   width: 94px;
   height: 24px;
 }
 .topImg{
-  margin-top: -212px;
+  margin-top: -198px;
+   border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.boxImg{
+  height: 605.391px;
+  width: 438.562px;
+  /* margin-top: -30px; */
+}
+.virtualHead,.joinHeading{
+  font-size: 52.608px;
+}
+.goDesvirtual{
+  width: 600px;
+}
+.btnCont{
+  margin-left: 560px;
+}
+.desVirtual,.desVirtualSmall{
+  width: 600px;
+}
+.btnCont2{
+  margin-left: 502px;
+}
+.relratio{
+  margin-left: 70px;
+}
+.btnContNew{
+  margin-left: 552px;
+}
+.capitalRisk{
+  padding: 0px;
+  margin-left: 220px;
+  margin-right: 220px;
+  padding-bottom: 120px;
+}
+.fooTer{
+  padding: 40px 220px;
+}
+.headFoot{
+  font-size: 40px;
+}
+.copyRight{
+  margin-bottom: 20px;
+  width: 1000px;
+}
+.transStyle{
+  padding-bottom: 80px;
 }
 }
