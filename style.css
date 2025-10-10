@@ -1100,6 +1100,12 @@ justify-content: center;
 .marriageImgDup{
   display: none;
 }
+.newClass{
+  display: none;
+}
+.Oldclass{
+  display: block;
+}
 @media screen and (max-width:425px){
   .belowPara{
     max-width: 370px;
@@ -1120,6 +1126,12 @@ justify-content: center;
   display: none;
 }
 .marriageImg{
+  display: block;
+}
+.newClass{
+  display: none;
+}
+.Oldclass{
   display: block;
 }
 }
@@ -1298,6 +1310,12 @@ justify-content: center;
 .marriageImg{
   display: block;
 }
+.newClass{
+  display: none;
+}
+.Oldclass{
+  display: block;
+}
 }
 
 @media screen and (min-width:1024px){
@@ -1457,6 +1475,12 @@ justify-content: center;
   .btnContNew{
     margin-left:370px;
   }
+  .newClass{
+    display: block;
+  }
+  .Oldclass{
+    display: none;
+  }
 }
 @media screen and (min-width:1440px){
 .flexRow{
@@ -1545,5 +1569,11 @@ justify-content: center;
 }
 .transStyle{
   padding-bottom: 80px;
+}
+.newClass{
+  display: block;
+}
+.Oldclass{
+  display: none;
 }
 }
